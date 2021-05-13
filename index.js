@@ -10,9 +10,9 @@ rl.question('Please enter your input. ', function (answer) {
 // Turns parameter in lower case and remoces spaces (One Two = onetwo)
     const reverseString = cleanedUpStirng.split('').reverse().join('');
     if (reverseString == cleanedUpStirng) {
-        console.log(`${reverseString} is a palindrom`);
+        console.log(`${reverseString} is a palindrome`);
     } else {
-        console.log(`${reverseString} is not a palindrom`);
+        console.log(`${reverseString} is not a palindrome`);
     }
     rl.close();
 })
